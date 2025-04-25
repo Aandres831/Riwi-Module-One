@@ -2,8 +2,9 @@
 # nombre producto, precio unitario, cantidad de productos adquiridos, porcentaje de descuento que se aplicará si es que existe alguno.
 
 #Se imprime un mensaje de bienvenidad
-print("Bienvenido al super de RIWI")
-# Bucle infinito para mantener el menú activo hasta que el usuario decida salir
+print("LLegaste al lugar indicado")
+print(" Bienvenido al super de RIWI")
+    # Bucle infinito para mantener el menú activo hasta que el usuario decida salir
 while True:
     # Muestra el menú de opciones
     print("      Menú Principal \n" 
@@ -43,8 +44,13 @@ while True:
 
     # Si el usuario elige salir    
     else:
+        print(f"Tu ultimo producto adquirido fue {name_product}")
+        print(f"Llevaste {cant_product } productos")
+        print(f"El saldo que pagaste sin descuento fue de {total_base} pesos")
+        print(f"El saldo que pagaste con descuento fue de {total} pesos")
         print(" Nos veremos en una futura compra. ")
         break # Sale del bucle y termina la ejecución del programa
+
 
 
 
